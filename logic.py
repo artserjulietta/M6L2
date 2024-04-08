@@ -1,6 +1,7 @@
 import sqlite3
 from config import *
-
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 
